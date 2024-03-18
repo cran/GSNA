@@ -1,6 +1,6 @@
-34e751365c9a82b63be22fba9a21b497 *DESCRIPTION
-374caf6a53b032f6cd9f6cab950b4a8a *NAMESPACE
-a5b07d258a3f1d44899f78a9056cbb70 *NEWS.md
+7593aee8c8855b34d56de3d4597e57bb *DESCRIPTION
+68ab6f9a18ed261eecf5581861651aea *NAMESPACE
+dfc29d94a38f544e595cca2832190ade *NEWS.md
 d3594fdb255bcb3ff1598ff623e5ceb7 *R/GSNA-package.R
 576c779b7dd8a2a843278b612d0611b4 *R/GSNData.R
 dc6c187e733cd947915a7461ed9f80a1 *R/Legacy.R
@@ -24,7 +24,7 @@ ca76b9d9f6a9f5be58829c57935214eb *R/getStringHeightsUsr.R
 fce2f43e25971b21a033a2a48a7a28da *R/getStringWidthsFigure.R
 bd1e45fbf95a224075786e7a577220c5 *R/getStringWidthsUsr.R
 b95d8becf6c1ff4055ef221b3816609e *R/get_brackets_coords.R
-9409411870f519dee68065e9323ec7f0 *R/gsnAddPathwaysData.R
+6520e8f3b8a3a37138e0f2e5639c5535 *R/gsnAddPathwaysData.R
 1c429e559615f7a8b46987ad57d6926a *R/gsnAssignSubnets.R
 6cc8c9b61dc1e1242be120cff4513b74 *R/gsnDendroSubnetColors.R
 e3d5c51b761c63f93fe61607531ccc91 *R/gsnDistanceHistogram.R
@@ -65,7 +65,7 @@ f4e34dd5ac261883b6285621af9f9194 *R/plot.GSNData.R
 499edd1f6e3d50ca94717991486bcaa6 *R/recursiveGetConnectedVertices.R
 6db940695442982b9fa74a16c3514d2c *R/renderCircularDendrogram.R
 807a06d2f225100bf7f3af32ce5cbc3d *R/yassifyPathways.R
-cdb9196e6c9d8ffc2cc0c48871b8329d *README.md
+f7f58fb4bf79a679aa93e95e9d35ff54 *README.md
 2d2a342faa0009bcc478cfd6343da284 *build/vignette.rds
 fe2d4c7acc1b3508a0644150e59b919b *data/Bai_CiHep_DN.cerno.rda
 8d1675878ded8a660d5f45aec1ed0530 *data/Bai_CiHep_dorothea_DN.Gsea.rda
@@ -80,7 +80,7 @@ fee1838f6cb894bed11ddde889a92b64 *data/Bai_empty_expr_mat.rda
 2d0ab6575c76ee472a6512cdffb646bd *inst/WORDLIST
 b568b97083e40daf05535a4432a885ec *inst/doc/using_the_gsna_package.R
 a79075d11bbb97922eed5e8102d85ff0 *inst/doc/using_the_gsna_package.Rmd
-f5e4432a4833f75716c95d8af8301141 *inst/doc/using_the_gsna_package.html
+0e8019e5142991c8fa857b7d0146b5b3 *inst/doc/using_the_gsna_package.html
 a3258a1108706d6d96b9bb6e1ba3a10e *man/Bai_data.Rd
 2d4e0e1ee9b35a2c14ae509190dacd53 *man/GSNData.Rd
 c71ac99f25d843861aec3fcbc7c7f10c *man/buildGeneSetNetworkGeneric.Rd
@@ -100,7 +100,7 @@ b14ce63860c9af2187660c14b37c0ebe *man/getAndSetFunctions.Rd
 40bc118b83e4b17ecfbb2a22e01cb923 *man/gsIntersect.Rd
 d4bca482e795f5e361fa521587933cfe *man/gsIntersectCounts.Rd
 55ad2d52b7332f65979c4a3af0f94b0e *man/gsc2tmod.Rd
-a6307e2e3fb0e96128f81c7ce0d23ff6 *man/gsnAddPathwaysData.Rd
+1443de7c19a57a930b678f9b7f72a1b6 *man/gsnAddPathwaysData.Rd
 082f1be04e2f1376d307dd6ac9a36002 *man/gsnAssignSubnets.Rd
 bb8645908056eaaf3a75f8e01772181b *man/gsnDendroSubnetColors.Rd
 c240ecb1eb90fd2d834d693fff59d804 *man/gsnDistanceHistogram.Rd

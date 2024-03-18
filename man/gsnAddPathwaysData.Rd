@@ -17,7 +17,17 @@ gsnAddPathwaysData(
   n_col = NULL
 )
 
-gsnAddPathwayData(...)
+gsnAddPathwayData(
+  object,
+  pathways_data,
+  type = NULL,
+  id_col = NULL,
+  stat_col = NULL,
+  sig_order = NULL,
+  stat_col_2 = NULL,
+  sig_order_2 = NULL,
+  n_col = NULL
+)
 }
 \arguments{
 \item{object}{A GSNData object.}
@@ -53,12 +63,6 @@ in 2-color networks.}
 
 \item{n_col}{(optional) Specifies the column containing the number of genes in the gene set. Generally, this is the number
 of genes in the gene set that are attested in an expression data set.}
-
-\item{...}{
-  Arguments passed on to \code{\link[=gsnAddPathwaysData]{gsnAddPathwaysData}}
-  \describe{
-    \item{\code{}}{}
-  }}
 }
 \value{
 This returns a GSNData object containing imported pathways data.
@@ -66,8 +70,9 @@ This returns a GSNData object containing imported pathways data.
 \description{
 Add pathways search data to a GSNData object.
 
-A synonym of \code{\link{gsnAddPathwaysData}()}, included to support old code. Use
-\code{\link{gsnAddPathwaysData}()} for new code.
+\code{gsnAddPathwayData()} is a synonym of \code{\link{gsnAddPathwaysData}()}, included to support
+old code. Use \code{\link{gsnAddPathwaysData}()} for new code. \code{gsnAddPathwayData()} will be deprecated in]
+a future version.
 }
 \details{
 Pathways data are used by the \code{assignSubnets()} function, which organizes subnets on the basis
@@ -86,12 +91,6 @@ is thrown if all gene set IDs in the genePresenceAbsense are not present in the 
 hand, if there are gene set IDs present in the pathways data that are absent from the genePresenceAbsence matrix,
 then these methods emit a warning.
 }
-\section{Functions}{
-\itemize{
-\item \code{gsnAddPathwayData()}: Synonym of \code{\link{gsnAddPathwaysData}()}, included to support old code. Use
-\code{\link{gsnAddPathwaysData}()} for new code.
-
-}}
 \examples{
 
 # In this example, we generate a gene set network from CERNO example
